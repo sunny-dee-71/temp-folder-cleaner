@@ -30,6 +30,5 @@ ECHO %CD%
 ECHO FILE LOCATION FOUND
 ECHO EMPTING TEMP FOLDER
 ping localhost>nul
-tree
 del %temp% /F /Q /S
 pause
